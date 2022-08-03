@@ -7,19 +7,20 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.project.core.services.PaymentService;
+import com.project.core.services.PaymentServiceImpl;
 
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-class CoreApplicationTests {
+public class CoreApplicationTests {
 	
 	@Autowired
-	PaymentService service;
+	PaymentServiceImpl service;
 
 	@Test
 	public void testDependencyInjection() {
-		assertNotNull(service);
+		assertNotNull(service.getDao());
 	}
 
 }
