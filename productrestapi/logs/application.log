@@ -22,3 +22,124 @@
 2022-08-04 11:57:10.183  INFO 10436 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-08-04 11:57:10.183  INFO 10436 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-08-04 11:57:10.184  INFO 10436 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-04 12:21:39.567  INFO 10436 --- [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-04 12:21:39.608  INFO 10436 --- [RMI TCP Connection(35)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:21:39.611  INFO 10436 --- [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-04 12:21:39.618  INFO 10436 --- [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-04 12:21:53.959  INFO 14320 --- [main] c.p.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18.0.2 on INGUR1N1241 with PID 14320 (C:\Users\yadavviv\Projects\SpringProjects\productrestapi\target\classes started by yadavviv in C:\Users\yadavviv\Projects\SpringProjects\productrestapi)
+2022-08-04 12:21:53.961  INFO 14320 --- [main] c.p.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-08-04 12:21:54.521  INFO 14320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 12:21:54.570  INFO 14320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-08-04 12:21:54.915  INFO 14320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-04 12:21:54.924  INFO 14320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-04 12:21:54.925  INFO 14320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-04 12:21:55.028  INFO 14320 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-08-04 12:21:55.028  INFO 14320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1029 ms
+2022-08-04 12:21:55.200  INFO 14320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-04 12:21:55.455  INFO 14320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-04 12:21:55.487  INFO 14320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 12:21:55.519  INFO 14320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-04 12:21:55.658  INFO 14320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 12:21:55.748  INFO 14320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-04 12:21:56.069  INFO 14320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 12:21:56.075  INFO 14320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:21:56.281  WARN 14320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 12:21:56.646  INFO 14320 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-04 12:21:56.690  INFO 14320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
+2022-08-04 12:21:56.704  INFO 14320 --- [main] c.p.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 3.006 seconds (JVM running for 3.453)
+2022-08-04 12:21:56.748  INFO 14320 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 12:21:56.748  INFO 14320 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-04 12:21:56.751  INFO 14320 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-04 12:22:35.620  INFO 14320 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-04 12:22:35.651  INFO 14320 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:22:35.655  INFO 14320 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-04 12:22:35.662  INFO 14320 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-04 12:22:47.607  INFO 2164 --- [main] c.p.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18.0.2 on INGUR1N1241 with PID 2164 (C:\Users\yadavviv\Projects\SpringProjects\productrestapi\target\classes started by yadavviv in C:\Users\yadavviv\Projects\SpringProjects\productrestapi)
+2022-08-04 12:22:47.613  INFO 2164 --- [main] c.p.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-08-04 12:22:48.229  INFO 2164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 12:22:48.273  INFO 2164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-08-04 12:22:48.553  INFO 2164 --- [main] org.eclipse.jetty.util.log               : Logging initialized @1707ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-08-04 12:22:48.692  INFO 2164 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2022-08-04 12:22:48.695  INFO 2164 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 18.0.2+9-FR
+2022-08-04 12:22:48.720  INFO 2164 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2022-08-04 12:22:48.721  INFO 2164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2022-08-04 12:22:48.907  INFO 2164 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2022-08-04 12:22:48.907  INFO 2164 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2022-08-04 12:22:48.908  INFO 2164 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2022-08-04 12:22:48.915  INFO 2164 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1a01d7f0{application,/productapi,[file:///C:/Users/yadavviv/AppData/Local/Temp/1/jetty-docbase.8080.10742778911505186683/],AVAILABLE}
+2022-08-04 12:22:48.915  INFO 2164 --- [main] org.eclipse.jetty.server.Server          : Started @2071ms
+2022-08-04 12:22:48.969  INFO 2164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-04 12:22:49.255  INFO 2164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-04 12:22:49.293  INFO 2164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 12:22:49.335  INFO 2164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-04 12:22:49.481  INFO 2164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 12:22:49.571  INFO 2164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-04 12:22:49.917  INFO 2164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 12:22:49.924  INFO 2164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:22:50.117  WARN 2164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 12:22:50.449  INFO 2164 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-04 12:22:50.490  INFO 2164 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 12:22:50.490  INFO 2164 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-04 12:22:50.491  INFO 2164 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-04 12:22:50.511  INFO 2164 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@29fd8e67{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-08-04 12:22:50.512  INFO 2164 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2022-08-04 12:22:50.527  INFO 2164 --- [main] c.p.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 3.208 seconds (JVM running for 3.683)
+2022-08-04 12:23:40.420  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-04 12:23:40.428  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@29fd8e67{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-08-04 12:23:40.428  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-08-04 12:23:40.430  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-08-04 12:23:40.430  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@1a01d7f0{application,/productapi,[file:///C:/Users/yadavviv/AppData/Local/Temp/1/jetty-docbase.8080.10742778911505186683/],STOPPED}
+2022-08-04 12:23:40.433  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:23:40.437  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-04 12:23:40.445  INFO 2164 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-04 12:23:46.554  INFO 16724 --- [main] c.p.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18.0.2 on INGUR1N1241 with PID 16724 (C:\Users\yadavviv\Projects\SpringProjects\productrestapi\target\classes started by yadavviv in C:\Users\yadavviv\Projects\SpringProjects\productrestapi)
+2022-08-04 12:23:46.555  INFO 16724 --- [main] c.p.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-08-04 12:23:47.111  INFO 16724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 12:23:47.152  INFO 16724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-08-04 12:23:47.486  INFO 16724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-04 12:23:47.495  INFO 16724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-04 12:23:47.495  INFO 16724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-04 12:23:47.580  INFO 16724 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-08-04 12:23:47.580  INFO 16724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2022-08-04 12:23:47.762  INFO 16724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-04 12:23:47.974  INFO 16724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-04 12:23:48.003  INFO 16724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 12:23:48.035  INFO 16724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-04 12:23:48.160  INFO 16724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 12:23:48.249  INFO 16724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-04 12:23:48.555  INFO 16724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 12:23:48.564  INFO 16724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:23:48.747  WARN 16724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 12:23:49.070  INFO 16724 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-04 12:23:49.112  INFO 16724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
+2022-08-04 12:23:49.123  INFO 16724 --- [main] c.p.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 2.855 seconds (JVM running for 3.29)
+2022-08-04 12:23:52.055  INFO 16724 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 12:23:52.057  INFO 16724 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-04 12:23:52.059  INFO 16724 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-04 12:24:23.430  INFO 16724 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-04 12:24:23.461  INFO 16724 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 12:24:23.463  INFO 16724 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-04 12:24:23.469  INFO 16724 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-04 15:34:04.279  INFO 13024 --- [main] c.p.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18.0.2 on INGUR1N1241 with PID 13024 (C:\Users\yadavviv\Projects\SpringProjects\productrestapi\target\classes started by yadavviv in C:\Users\yadavviv\Projects\SpringProjects\productrestapi)
+2022-08-04 15:34:04.286  INFO 13024 --- [main] c.p.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-08-04 15:34:04.883  INFO 13024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 15:34:04.929  INFO 13024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2022-08-04 15:34:05.265  INFO 13024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-04 15:34:05.275  INFO 13024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-04 15:34:05.275  INFO 13024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-04 15:34:05.362  INFO 13024 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-08-04 15:34:05.364  INFO 13024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2022-08-04 15:34:05.535  INFO 13024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-04 15:34:05.754  INFO 13024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-04 15:34:05.789  INFO 13024 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 15:34:05.821  INFO 13024 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-04 15:34:05.954  INFO 13024 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 15:34:06.040  INFO 13024 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-04 15:34:06.354  INFO 13024 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 15:34:06.362  INFO 13024 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 15:34:06.545  WARN 13024 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 15:34:06.868  INFO 13024 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-04 15:34:06.910  INFO 13024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
+2022-08-04 15:34:06.922  INFO 13024 --- [main] c.p.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 2.912 seconds (JVM running for 3.356)
+2022-08-04 15:34:07.638  INFO 13024 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-04 15:34:07.638  INFO 13024 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
