@@ -1,0 +1,3 @@
+Instead of activating profiles from application.properties, We can Dynamically activate other profiles.
+Select @Test Function and Run as Run Configurations. Switch to Arguments section and activate profiles from VM Arguments.
+write: -Dspring.profiles.active=profileName (dev, testing, etc)
